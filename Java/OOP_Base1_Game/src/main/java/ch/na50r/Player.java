@@ -4,4 +4,7 @@ public class Player extends Entity{
     public Player(String name, String blessing) {
         super(name, blessing);
     }
+
+    public void act_skill()
+
 }
