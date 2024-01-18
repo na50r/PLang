@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>FileHandling_Base1</artifactId>
+    <artifactId>FileArrayFilter</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

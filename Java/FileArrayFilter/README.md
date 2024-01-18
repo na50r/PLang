@@ -62,3 +62,12 @@ return words; //[QwQ, QmQ, QuQ]
 * Perform `Extractor` and store the returned array of strings
 * Pass the array of strings, curse and bleep word into a `Censor1` object
 * Perform filter and store it and then you can print the filtered array.
+
+# After Some Edits
+## FileArray & Censor3
+* So I made a `Graveyard` package for all the classes that I just made to test partial functionality and the finaly version (atm) uses `Censor3` and `FileArray`.
+* `FileArray` contains no constructor and only two methods, where one extracts file content and the other inserts the contents of an array of strings into a file.
+* `Censor3` employs a 'dynamic' censorshi in form using 4 chars ([$, #, !, %]) in order to form the censor-string matching the length of the censored word. 
+* So essentially, you get the content file via `FileArray.Extractor`, you pass it to the `Censor3` which takes it as a constructor and then returns a censored version which you can then pass to the `FileArray.Inserter` method 
+* Generally, I'm not 100% sure when exactly you have to think about when to use the constructor and when not, `Censor3` could also work without constructor tbh.
+

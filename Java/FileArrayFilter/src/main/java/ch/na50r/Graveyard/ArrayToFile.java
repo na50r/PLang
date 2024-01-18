@@ -1,4 +1,4 @@
-package ch.na50r;
+package ch.na50r.Graveyard;
 import java.io.IOException;
 import java.io.BufferedWriter;
 import java.io.FileWriter;

@@ -1,9 +1,7 @@
 package ch.na50r;
-import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 public class Main {
-    static String[] output;
     public static void main(String[] args) throws IOException {
         String[] output = FileArray.Extractor("data.txt");
         System.out.println(Arrays.toString(output));

@@ -1,4 +1,4 @@
-package ch.na50r;
+package ch.na50r.Graveyard;
 
 
 public class Censor2 {
