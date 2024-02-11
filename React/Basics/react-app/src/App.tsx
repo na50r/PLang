@@ -1,6 +1,8 @@
 import ListGroup from "./components/ListGroup";
 import Message from "./Message";
 import Alert from "./components/Alert";
+import Button from "./components/Button";
+import { useState } from "react";
 
 // function App(){
 //   const handleSelectItem = (item:string)=>{
@@ -14,9 +16,14 @@ import Alert from "./components/Alert";
 // export default App;
 
 function App() {
+  const [alertVisible, setAlertVisibility] = useState(false);
+
   return (
     <div>
-      <Alert text="Hello World"/>
+      {alertVisible && <Alert onClose={()=> setAlertVisibility(false)}>My alert</Alert>}
+      <Button color="primary" onClick={() => setAlertVisibility(true)}>
+        My Button
+      </Button>
     </div>
   );
 }
