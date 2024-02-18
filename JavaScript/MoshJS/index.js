@@ -27,6 +27,7 @@ selectedColors[3] = 'violet';
 selectedColors[5] = 1;
 console.log(selectedColors);
 
+//Here is a function, and I'll be able to use it in the console. 
 //Functions
 const Primes = (bound) => {
     let tmp = [];
@@ -45,4 +46,5 @@ const Primes = (bound) => {
     return primes;
 }
 
-
+//Or, I'll use it with node, similar to Python.
+console.log(Primes(300));
